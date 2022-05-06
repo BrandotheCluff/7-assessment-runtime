@@ -38,9 +38,8 @@
 
 
 // const pangram = str => {
-//     // let alphArr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-//     // let wordArr = str.split('')
-//     str = str.toLowerCase().split('').filter((e) => e >= "a" && e <= "z").length > 25;
+//     
+//     str = str.toLowerCase().replace(/([^a-z])+/g, '')
 
 //     let map = {}
 
